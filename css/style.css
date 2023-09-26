@@ -112,8 +112,32 @@ header {
   background-color: #000;
 }
 
+@media screen and (max-width: 1600px) {
+  .card .profile-details {
+    /* position: absolute; */
+    top: 17rem;
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+    background: #ffffff; */
+  }
+}
+
 @media screen and (max-width: 768px) {
   .swiper-navBtn {
     display: none;
+  }
+
+  .card .profile-details {
+    /* position: absolute; */
+    top: 17rem;
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    padding: 15px;
+    background: #ffffff; */
   }
 }
